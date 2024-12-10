@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.textMe{
+  font-size: 50px;
+  align-items: end;
+  justify-content: center;
+  display: flex;
+  margin-top: 200px;
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;;
+  height: 50%;
+}
+.sidebar {
+  height: 100%;
+  width: 100px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #4D869C;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+/* Style sidebar links */
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #CDE8E5;
+  display: block;
+}
+
+/* Style links on mouse-over */
+.sidebar a:hover {
+  color: #EEF7FF;
+  transform: none;
+}
+
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+* {
+  box-sizing: border-box;
+}
+
+/* Set a background color */
+body {
+  background-color: #7AB2B2;
+  font-family: Helvetica, sans-serif;
+}
+
+.main{
+    margin-left: 170px;
+}
+#home{
+    margin-left: 200px;
+}
+.home_data{
+    margin-left: 200px;
+    position: relative;
+}
+.my_info{
+    margin-left: 200px;
+    
+}
+.home_img{
+    height: 350px;
+    width: 350px;
+    margin-right: 100px;
+    justify-content:right;
+    display: flex;
+    position: absolute;
+    left: 50%;
+
+}
